@@ -1,0 +1,161 @@
+@import url("https://fonts.cdnfonts.com/css/uncut-sans-2");@import url("https://fonts.cdnfonts.com/css/jetbrains-mono");
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Uncut Sans,Uncut Sans VF,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji ;  
+    text-decoration:  none;
+    background-color: #f8fafc;
+}
+.logo{
+    margin-left: 20px;
+}
+.header{
+    background-color: #f8fafc;
+    padding-bottom: 20px;
+    box-shadow: #fff;
+    width: 100%;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;   
+    text-transform: capitalize;
+     padding-top: 90px; 
+    padding-top: 50px;
+    background-color: #f8fafc;
+    border-bottom: 1px solid gainsboro;
+     color: #064e3b;
+    padding: 0;
+    overflow: hidden;
+}
+a{
+    margin-inline: 20px;
+    color: rgb(15 23 42);
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: 500; 
+}
+a:hover{
+    text-decoration: underline;
+}
+.text-blk{
+    margin-left: 9cm;
+}
+.text{
+    margin-left: 10cm;
+}
+.first {
+    margin-top: 4cm;
+    margin-left: 30px;
+}
+.first h1{
+    font-size: 2.5rem;
+}
+.first p{
+    margin-top: -20px;
+}
+.pen{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    margin-left: 30px;
+    font-size: 1.6rem;
+    margin-bottom: -7px;
+    color: #0f172a;
+}
+p{
+    margin-left: 30px;
+    color: #4e576d;
+    line-height: 30px;
+}
+.book{
+    border-radius: 0.375rem;
+    border: 1px solid rgb(226 232 240);
+    /* margin-left: 30px ; */
+    /* margin-right: 30px; */
+    cursor: pointer;
+    /* padding-right: 30px; */
+    margin-bottom: 20px;   
+}
+.book:hover{
+   background-color:#e6eff8;
+}
+
+.hunter{
+    display: flex;
+}
+.hunter img{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+.hunter h5{
+    margin-top: 1px;
+    margin-left: 10px;
+}
+.hunter p{
+    margin-left: 10px;
+    margin-top: -25px;
+}
+.book button{
+    border: 1px solid rgb(226 232 240);
+    border-radius: 15px;
+    background-color:#e6eff8;
+    margin-bottom: 20px;
+    color: #0f172a;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 5px 10px;
+}
+/*  */
+
+footer{
+    background-color: white;
+    margin-top: 2cm;
+    padding-top: 5cm;
+}
+.footer a{
+    margin-top: 2cm;
+    margin-bottom: 40px;
+    color: rgb(134, 129, 129)
+}
+.footer{
+    margin-left: 9cm;
+}
+.footer a:hover{
+    color: rgb(12, 0, 0);
+    text-decoration: none;
+}
+.drink{
+    text-align: center;
+    margin-top: 50px;
+    
+  
+}
+.bxl-youtube{
+    color: rgb(134, 129, 129);
+}
+.bxl-youtube:hover{
+    color: black;
+}
+.bxl-twitter{
+    color: rgb(134, 129, 129);
+}
+.bxl-twitter:hover{
+    color: black;
+}
+.cover{
+    margin-left: 14cm;
+    color: rgb(134, 129, 129);
+    display: inline-flex;
+    margin-bottom: 80px;
+}
+.bx-copyright{
+    margin-top: 18px;
+    margin-right: 5px;
+}
